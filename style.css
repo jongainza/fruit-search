@@ -1,0 +1,66 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background: linear-gradient(to right, rgb(241, 214, 8), rgba(220, 70, 11, 0.914));
+  z-index: -10;
+}
+
+input {
+  background-color: rgb(244, 241, 135);
+ /* TODO */
+}
+
+.search-container {
+  position: static;
+  width: 35% ;
+  margin: 50px auto ;
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  width: 100%;
+  padding: 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid hsla(23, 87%, 45%, 0.753);
+  border-radius: 8px;
+  font-size: 25px;
+  /* TODO */
+}
+.search-container {
+  border-color:hsla(196, 23%, 45%, 0.753);
+ /* TODO */
+}
+.search-container .suggestions {
+  background-color: hsla(129, 24%, 94%, 0.753);
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  color: rgb(100, 100, 100);
+  padding: 10px 20px;
+  margin: 0px 0;
+  /* TODO */
+}
+ul li:hover {
+  color: rgb(255, 255, 255);
+  background-color:hsl(216, 88%, 81%);
+}
+  /* TODO */
+
+
+input {
+   /* TODO */
+}
